@@ -8,7 +8,7 @@ export default function Layout ({children}){
             {children}
         </main>
         <footer>
-            Resourcearchive
+            ResourceArchive
         </footer>
      </div>
     )

@@ -5,6 +5,7 @@ import './App.css'
 import Layout from './components/Layout'
 import { Route, Routes } from 'react-router-dom'
 import Resources from './components/Resources'
+import "./styles/style.scss";
 
 
 function App() {
