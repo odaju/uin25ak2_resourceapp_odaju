@@ -1,12 +1,18 @@
+//importert font fra google fonts.
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 #root{
+    width: 100%;
     background-color: var(--grey);
-    color: black;
+    color: (var(--black));
     --blue: #2a324b;
     --bluegrey: #58699D;
     --grey: #E1E5EE;
     --white: #fff;
     --black: #000;
+    font-family: "Montserrat", serif;
 }
+
 //Laget sass/css for header og linkene i header området.
 #container{
     
@@ -24,16 +30,52 @@
                     gap: 2rem;
                     margin: 0;
                     padding: 0;
-                    font-size: 12px;
+                    font-size: 14px;
+
+                    a:hover{
+                        background-color: var(--white);
+                        color: var(--black);
+                    }
 
                     a{
                         background-color: var(--blue);
                         padding: 1rem;
                         margin: 0;
                         text-decoration: none;
-                        color: var(--black);
+                        color: var(--white);
+                        text-align: center;
                     }
+                    
                 }
             }
         }
+}
+
+
+#heading{
+        text-align: left;
+        margin-top: 14px;
+        padding: 2rem 0rem 0rem 1rem;
+}
+
+#overskrift{
+    text-align: left;
+    padding: 2rem 0rem 0rem 1rem;
+    margin: 0;
+}
+
+main{
+    background-color: var(--white);
+    
+    article{
+
+        li{
+            list-style-type: none;
+        }
+    }
+}
+
+footer{
+    color: var(--black);
+    text-align: right;
 }
