@@ -10,7 +10,8 @@ import "./styles/style.scss";
 
 function App() {
   const [count, setCount] = useState(0)
-
+/**Har fjernet orginalinnholdet som følger med et tomt react prosjekt og byttet ut med Layout og de ulike rutene som skal skrives ut på siden. 
+ * Hver av rutene har en path og mappes ut via Resources.jsx med category fra resources.js. Har fått hjelp av medstudent Hanna Sørum fra linje 16 til 26. **/
   return (
     <>
     <Layout>
