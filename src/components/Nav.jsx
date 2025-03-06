@@ -6,7 +6,7 @@ export default function Nav(){
             <nav>
                 <ul>
                     <li>
-                        <Link to="/"></Link>
+                        <Link to=""></Link>
                     </li>
                 </ul>
             </nav>
