@@ -60,17 +60,26 @@
 
 #overskrift{
     text-align: left;
-    padding: 2rem 0rem 0rem 1rem;
+    padding: 0rem 0rem 0rem 10rem;
     margin: 0;
 }
 
 main{
     background-color: var(--white);
+    padding-bottom: 1rem;
     
     article{
 
-        li{
-            list-style-type: none;
+        ul{
+            padding: 0rem 0rem 0.5rem 11rem;
+        
+            li{
+                list-style-type: none;
+                background-color: (var(--bluegrey));
+                color:var(--black);
+                border-radius: 0.2rem;
+                width: 6rem;
+            }
         }
     }
 }
