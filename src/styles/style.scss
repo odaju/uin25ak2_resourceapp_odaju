@@ -30,7 +30,7 @@
                     gap: 2rem;
                     margin: 0;
                     padding: 0;
-                    font-size: 14px;
+                    font-size: 19px;
 
                     a:hover{
                         background-color: var(--white);
@@ -41,6 +41,7 @@
                         background-color: var(--blue);
                         padding: 1rem;
                         margin: 0;
+                        border-radius: 0.1rem;
                         text-decoration: none;
                         color: var(--white);
                         text-align: center;
@@ -55,15 +56,17 @@
 #heading{
         text-align: left;
         margin-top: 14px;
-        padding: 2rem 0rem 0rem 1rem;
+        padding: 3rem 0rem 0rem 4.5rem;
 }
 
 #overskrift{
+    font-weight: lighter;
     text-align: left;
     padding: 0rem 0rem 0rem 10rem;
     margin: 0;
 }
 
+//Brukt kode fra https://www.w3schools.com/css/css_border.asp på linje 80 for å finne en passende border.
 main{
     background-color: var(--white);
     padding-bottom: 1rem;
@@ -71,27 +74,36 @@ main{
     article{
 
         ul{
-            padding: 0rem 0rem 0.5rem 11rem;
         
             li{
                 list-style-type: none;
-                background-color: (var(--blue));
+                border-style:outset;
                 text-decoration: none;
                 color:var(--black);
                 border-radius: 0.2rem;
                 width: 6rem;
                 padding: 4px;
+                margin: 0rem 0rem 0.5rem 8rem;
+            }
+
+            li:hover{
+                background-color: var(--grey);
             }
         }
     }
 }
 
+//#artikkelkort{
+  //  display: flex;
+//}
+
 #lesmer{
     text-decoration: none;
-    color: (var(--white));
+    color: (var(--black));
 }
 
 footer{
     color: var(--black);
     text-align: right;
+    padding-top: 1rem;
 }
