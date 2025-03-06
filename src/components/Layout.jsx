@@ -1,17 +1,15 @@
-export default function Layout (){
+import Nav from "./Nav";
+
+export default function Layout ({children}){
     return (
-        <body>
-   <header>
-        <nav>
-            <ul id="faneid">
-            </ul>
-        </nav>
-    </header>
-   <main>
-        <section id="whitebox"> 
-        </section>
-    </main>
-    
-</body>
+     <div id="container">
+        <Nav/>
+        <main>
+            {children}
+        </main>
+        <footer>
+            Resourcearchive
+        </footer>
+     </div>
     )
 }
