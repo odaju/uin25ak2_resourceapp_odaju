@@ -1,3 +1,39 @@
 #root{
-    background-color: aquamarine;
+    background-color: var(--grey);
+    color: black;
+    --blue: #2a324b;
+    --bluegrey: #58699D;
+    --grey: #E1E5EE;
+    --white: #fff;
+    --black: #000;
+}
+//Laget sass/css for header og linkene i header området.
+#container{
+    
+        header{
+            display: flex;
+            flex-direction: row;
+            color: var(--black);
+
+            nav{
+                ul{
+                    display: flex;
+                    flex-direction:row;
+                    list-style: none;
+                    justify-content: space-between;
+                    gap: 2rem;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 12px;
+
+                    a{
+                        background-color: var(--blue);
+                        padding: 1rem;
+                        margin: 0;
+                        text-decoration: none;
+                        color: var(--black);
+                    }
+                }
+            }
+        }
 }
