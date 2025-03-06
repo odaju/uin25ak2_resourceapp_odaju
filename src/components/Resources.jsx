@@ -14,7 +14,7 @@ export default function Resources({category}){
                 <h2 id="overskrift">{filtermap.title}</h2>
                  <ul>
                     <li>
-                    <Link to={filtermap.url}>Les mer</Link>
+                    <Link to={filtermap.url} id="lesmer">Les mer</Link>
                     </li>
                 </ul>
             </article>

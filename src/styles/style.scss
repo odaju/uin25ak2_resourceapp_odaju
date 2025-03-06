@@ -75,13 +75,20 @@ main{
         
             li{
                 list-style-type: none;
-                background-color: (var(--bluegrey));
+                background-color: (var(--blue));
+                text-decoration: none;
                 color:var(--black);
                 border-radius: 0.2rem;
                 width: 6rem;
+                padding: 4px;
             }
         }
     }
+}
+
+#lesmer{
+    text-decoration: none;
+    color: (var(--white));
 }
 
 footer{
