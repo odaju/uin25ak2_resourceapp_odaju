@@ -71,6 +71,8 @@
 main{
     background-color: var(--white);
     padding: 10rem 10rem 10rem 10rem;
+    display: flex;
+    flex-direction: column;
     
     article{
 
@@ -104,4 +106,6 @@ footer{
     color: var(--black);
     text-align: right;
     padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
 }
