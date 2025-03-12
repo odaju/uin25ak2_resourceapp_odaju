@@ -12,7 +12,7 @@ export default function Resources({category}){
         <>
         <PageTitle Tittelnavn={filtered[0].category}/>
         {filtered.map((filtermap) => 
-            <article key={filtermap.id}>
+            <article id="artikkelkort" key={filtermap.id}>
                 <h2 id="overskrift">{filtermap.title}</h2>
                  <ul>
                     <li>
