@@ -1,4 +1,4 @@
-//importert font fra google fonts.
+//importert font fra google fonts. Kilde: https://fonts.google.com/specimen/Montserrat
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 #root{
@@ -34,6 +34,7 @@
                     padding-bottom: 0.8rem;
                     font-size: 19px;
 
+                    // Brukt kilde til hover-effekt fra : https://www.w3schools.com/cssref/sel_hover.php på linje 38.
                     a:hover{
                         background-color: var(--white);
                         color: var(--black);
@@ -73,7 +74,7 @@
     padding: 1.5rem;
 }
 
-//Brukt kode fra https://www.w3schools.com/css/css_border.asp på linje 80 for å finne en passende border.
+//Brukt kode fra https://www.w3schools.com/css/css_border.asp på linje 89 for å finne en passende border.
 main{
     background-color: var(--white);
     padding: 0rem 10rem 2rem 0rem;

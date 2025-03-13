@@ -1,9 +1,9 @@
 #root {
-  /*max-width: 1280px;*/
+  /*max-width: 1280px;*/ /*Kommenterer ut for å fjerne defult vidde som følger med react-prosjekt*/
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  min-height: 100vh;
+  min-height: 100vh; /*setter ny høyde med hjelp fra Ann Charlott, slik at siden får riktig høyde*/
 }
 
 .logo {
