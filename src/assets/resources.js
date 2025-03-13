@@ -75,5 +75,5 @@ const resources = [
       category: "headless-cms",
     },
   ];
-
+// Skrevet inn linje 79 for å gjøre listen tilgjengelig for react-prosjektet.
   export default resources
